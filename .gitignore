@@ -1,0 +1,8 @@
+.clasp.json
+.clasprc.json
+.env
+*.csv
+*.xlsx
+*.xls
+.DS_Store
+Thumbs.db
