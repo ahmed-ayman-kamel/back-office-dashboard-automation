@@ -1,12 +1,12 @@
-# Contact Center SLA Automation (Google Apps Script)
+# Back Office Dashboard Automation
 
-Google Apps Script jobs that feed a contact-center **WFM SLA dashboard** in Google Sheets / Looker Studio. They replace manual CSV downloads with scheduled imports from a telephony API, helpdesk report emails and a raw roster export.
+The **Back Office dashboard** of a contact center (Looker Studio) and the Google Apps Script data pipelines behind it. The pipelines replace manual CSV downloads with scheduled imports from the helpdesk's report emails, a telephony API and a raw schedule export, so the dashboard stays current through the day. The same feeds also serve the team's SLA and [sales](https://github.com/ahmed-ayman-kamel/sales-performance-dashboard) reporting.
 
 > **Status:** completed (2026). Sheet IDs are placeholders, client data is not included, and the client's name and logo are replaced with a fictional brand ("Aurora Retail").
 
 ## The problem
 
-The dashboard needed phone, chat and back-office ticket data together, refreshed through the day. The helpdesk delivered its reports as scheduled emails with CSV attachments (or download links), the telephony platform had only an API, and the team's schedule came as a block-formatted sheet that BI tools cannot read.
+Back-office management needed ticket backlog, handling time and agent productivity in one place, refreshed through the day, next to phone and chat activity. The helpdesk delivered its reports as scheduled emails with CSV attachments (or download links), the telephony platform had only an API, and the team's schedule came as a block-formatted sheet that BI tools cannot read.
 
 ## What's in here
 
